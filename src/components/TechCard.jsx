@@ -1,4 +1,4 @@
-// badge colors
+
 const badgeColors = {
   Popular: "bg-sky-50 text-sky-600 border-sky-200",
   Versatile: "bg-green-50 text-green-600 border-green-200",
