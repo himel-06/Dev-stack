@@ -4,14 +4,14 @@ function YourStack({ stack, handleRemove, handleRemoveAll }) {
       <h3 className="text-lg font-semibold">Your Stack</h3>
       <p className="text-sm text-gray-400 mb-4">{stack.length} Technology Selected</p>
 
-      {/* empty message */}
+      
       {stack.length === 0 && (
         <p className="text-sm text-gray-400 text-center border border-dashed border-gray-300 rounded-lg py-8 px-4">
           No technology selected yet. Click "Add to Stack" to add one.
         </p>
       )}
 
-      {/* selected items, 1 column */}
+     
       <div className="flex flex-col gap-2">
         {stack.map((item) => (
           <div
